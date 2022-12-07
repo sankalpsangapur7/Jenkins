@@ -15,5 +15,6 @@ public class TVS_TEST {
 	//	String url=Utility_Methods.Test_configuration();
 		driver.get("https://www.tvsmotor.com/tvs-apache");
 		driver.manage().window().maximize();
+		driver.quit();
 		}
 }
