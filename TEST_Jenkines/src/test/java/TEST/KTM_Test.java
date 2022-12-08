@@ -15,7 +15,7 @@ public class KTM_Test {
 			System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 			 driver=new ChromeDriver();
 		//	String url=Utility_Methods.Test_configuration();
-			driver.get("https://web.skype.com");
+			driver.get("https://www.ktm.com/en-in.html");
 			driver.manage().window().maximize();
 			//driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 			driver.quit();
