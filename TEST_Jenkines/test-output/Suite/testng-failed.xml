@@ -3,6 +3,11 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="TEST.Ducati_Test">
+        <methods>
+          <include name="Browsersetup"/>
+        </methods>
+      </class> <!-- TEST.Ducati_Test -->
       <class name="TEST.TVS_TEST">
         <methods>
           <include name="Browsersetup"/>

@@ -12,7 +12,7 @@ public class TVS_TEST {
 	public void Browsersetup() throws IOException {
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
-	//	String url=Utility_Methods.Test_configuration();
+	//String url=Utility_Methods.Test_configuration();
 		driver.get("https://www.tvsmotor.com/tvs-apache");
 		driver.manage().window().maximize();
 		driver.quit();

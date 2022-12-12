@@ -3,10 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="TEST.BMW"/>
       <class name="TEST.TVS_TEST"/>
-      <class name="TEST.KTM_Test"/>
+      <class name="TEST.BMW_TEST"/>
       <class name="TEST.Ducati_Test"/>
+      <class name="TEST.KTM_Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
